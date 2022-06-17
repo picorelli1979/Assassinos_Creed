@@ -1,0 +1,80 @@
+body{
+    border: solid black 20px;
+    width: 98%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.Container{
+    display: flex;
+}
+
+header img{
+    width: 500px;
+    height: 200px;
+}
+
+.Navbar{
+    display: inline-flex;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.Navbar ul{
+    display: flex;
+    margin: 15px;
+    list-style: none;
+    background-color: red;  
+}
+
+.Navbar li {
+    font-size: 30px;
+    color: black;
+    font-family: fantasy;
+    margin: 10px;
+    align-items: center;
+}
+
+.Navbar li:hover{
+    transform: scale(1.20);
+    border: solid black 2px
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+
+
+.Assassino img{
+    width: 250px;
+    height: 380px; 
+    margin-left: 80px;
+}
+
+.Container1{
+    display: flex;
+    background-color: black;
+}
+
+.Galery img{
+      width: 400px;
+      height: 200px;
+      margin-left: 20px;
+      border: solid var(--cor-vermelha-principal) 5px;
+      cursor: pointer;
+}
+
+.Galery img:hover{
+    transform: scale(1.20);
+    animation: alternate;
+    animation: c-glowing-red  0.10s ease-in-out infinite;
+}

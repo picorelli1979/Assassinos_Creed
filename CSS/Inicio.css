@@ -1,0 +1,28 @@
+.Container{
+     display: flex;
+
+}
+
+header img{
+   width: 300px;
+   height: 200px;
+   margin-top: 30px;
+   margin-left: 20px;   
+}
+
+.Assassino img{
+   width: 350px;
+   height: 500px;
+   margin: 30px 10px;   
+}
+
+article{
+    border: solid 20px black;
+    width: 600px;
+    height: 500px;
+    margin-top: 20px;
+    background-color: gray; 
+    color: white;
+    font-size: 25px;
+    font-style: italic;    
+}
